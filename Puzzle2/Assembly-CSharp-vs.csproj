@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{1E1DE654-EF14-51C2-7988-1E8B545FB342}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_3;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity_4_6_2/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity_4_6_2/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\3rdParty\LitJson2\IJsonWrapper.cs" />
+     <Compile Include="Assets\3rdParty\LitJson2\JsonData.cs" />
+     <Compile Include="Assets\3rdParty\LitJson2\JsonException.cs" />
+     <Compile Include="Assets\3rdParty\LitJson2\JsonMapper.cs" />
+     <Compile Include="Assets\3rdParty\LitJson2\JsonReader.cs" />
+     <Compile Include="Assets\3rdParty\LitJson2\JsonWriter.cs" />
+     <Compile Include="Assets\3rdParty\LitJson2\Lexer.cs" />
+     <Compile Include="Assets\3rdParty\LitJson2\ParserToken.cs" />
+     <Compile Include="Assets\3rdParty\UniLinq\Check.cs" />
+     <Compile Include="Assets\3rdParty\UniLinq\Enumerable.cs" />
+     <Compile Include="Assets\3rdParty\UniLinq\Grouping.cs" />
+     <Compile Include="Assets\3rdParty\UniLinq\IGrouping.cs" />
+     <Compile Include="Assets\3rdParty\UniLinq\ILookup.cs" />
+     <Compile Include="Assets\3rdParty\UniLinq\IOrderedEnumerable.cs" />
+     <Compile Include="Assets\3rdParty\UniLinq\Lookup.cs" />
+     <Compile Include="Assets\3rdParty\UniLinq\OrderedEnumerable.cs" />
+     <Compile Include="Assets\3rdParty\UniLinq\OrderedSequence.cs" />
+     <Compile Include="Assets\3rdParty\UniLinq\QuickSort.cs" />
+     <Compile Include="Assets\3rdParty\UniLinq\SortContext.cs" />
+     <Compile Include="Assets\3rdParty\UniLinq\SortDirection.cs" />
+     <Compile Include="Assets\3rdParty\UniLinq\SortSequenceContext.cs" />
+     <Compile Include="Assets\N_Utility\AppConfig.cs" />
+     <Compile Include="Assets\N_Utility\Event\AutoTimeEvent.cs" />
+     <Compile Include="Assets\N_Utility\Event\DestroyEventEntry.cs" />
+     <Compile Include="Assets\N_Utility\Event\EventManager.cs" />
+     <Compile Include="Assets\N_Utility\Event\InstanceEventEntry.cs" />
+     <Compile Include="Assets\N_Utility\Event\NotificationCenter.cs" />
+     <Compile Include="Assets\N_Utility\Event\NotificationObject.cs" />
+     <Compile Include="Assets\N_Utility\Extension\Extension.cs" />
+     <Compile Include="Assets\N_Utility\Extension\PageList.cs" />
+     <Compile Include="Assets\N_Utility\Extension\TransformExtension.cs" />
+     <Compile Include="Assets\N_Utility\Log\N_Debug.cs" />
+     <Compile Include="Assets\N_Utility\Log\N_DebugBase.cs" />
+     <Compile Include="Assets\N_Utility\Log\N_DebugMemory.cs" />
+     <Compile Include="Assets\N_Utility\Log\N_DebugMenu.cs" />
+     <Compile Include="Assets\N_Utility\Log\N_DebugUtil.cs" />
+     <Compile Include="Assets\N_Utility\Log\N_Log.cs" />
+     <Compile Include="Assets\N_Utility\Models\DataModels.cs" />
+     <Compile Include="Assets\N_Utility\Models\InterfaceModels.cs" />
+     <Compile Include="Assets\N_Utility\Models\JsonSerializeModels.cs" />
+     <Compile Include="Assets\N_Utility\ParticleSystem\BaseParticleAction.cs" />
+     <Compile Include="Assets\N_Utility\ParticleSystem\PursuerParticle.cs" />
+     <Compile Include="Assets\N_Utility\Popup\PopupController.cs" />
+     <Compile Include="Assets\N_Utility\Popup\PopupDataModel.cs" />
+     <Compile Include="Assets\N_Utility\Queue\AssetBundleManager.cs" />
+     <Compile Include="Assets\N_Utility\Queue\AssetBundleQueue.cs" />
+     <Compile Include="Assets\N_Utility\Queue\AsyncQueue.cs" />
+     <Compile Include="Assets\N_Utility\Queue\DataModelQueue.cs" />
+     <Compile Include="Assets\N_Utility\Queue\LocalAssetBundleQueue.cs" />
+     <Compile Include="Assets\N_Utility\Queue\NetworkQueue.cs" />
+     <Compile Include="Assets\N_Utility\Queue\WorkQueue.cs" />
+     <Compile Include="Assets\N_Utility\SceneSingleton.cs" />
+     <Compile Include="Assets\N_Utility\Singleton.cs" />
+     <Compile Include="Assets\N_Utility\Sqlite\AccessBase.cs" />
+     <Compile Include="Assets\N_Utility\Sqlite\DataModelAccess.cs" />
+     <Compile Include="Assets\N_Utility\Sqlite\DataModelFile.cs" />
+     <Compile Include="Assets\N_Utility\Sqlite\HashUtility.cs" />
+     <Compile Include="Assets\N_Utility\Sqlite\KeyValueAccess.cs" />
+     <Compile Include="Assets\N_Utility\Sqlite\KeyValueStorage.cs" />
+     <Compile Include="Assets\N_Utility\Sqlite\SqliteDatabase.cs" />
+     <Compile Include="Assets\N_Utility\Templete\BaseChart.cs" />
+     <Compile Include="Assets\N_Utility\Templete\UpdateNotification.cs" />
+     <Compile Include="Assets\N_Utility\Templete\mvc_base.cs" />
+     <Compile Include="Assets\N_Utility\UniQueue\BaseProxy.cs" />
+     <Compile Include="Assets\N_Utility\UniQueue\UniAssetBundleQueue.cs" />
+     <Compile Include="Assets\N_Utility\UniQueue\UniBaseQueue.cs" />
+     <Compile Include="Assets\N_Utility\UniQueue\UniJsonQueue.cs" />
+     <Compile Include="Assets\N_Utility\UniQueue\UniSessionManager.cs" />
+     <Compile Include="Assets\N_Utility\Util\Fade.cs" />
+     <Compile Include="Assets\N_Utility\Util\FlagUtil.cs" />
+     <Compile Include="Assets\N_Utility\Util\GotoScene.cs" />
+     <Compile Include="Assets\N_Utility\Util\GotoURL.cs" />
+     <Compile Include="Assets\N_Utility\Util\JsonTextSaveLoad.cs" />
+     <Compile Include="Assets\N_Utility\Util\Math.cs" />
+     <Compile Include="Assets\N_Utility\Util\ObjCreator.cs" />
+     <Compile Include="Assets\N_Utility\Util\SceneUtil.cs" />
+     <Compile Include="Assets\N_Utility\Util\TimeUtil.cs" />
+     <Compile Include="Assets\N_Utility\Util\UrlUtil.cs" />
+     <Compile Include="Assets\N_Utility\uGUI\Event\DragAndDrop.cs" />
+     <Compile Include="Assets\N_Utility\uGUI\InputManager.cs" />
+     <Compile Include="Assets\N_Utility\uGUI\Localize\U_Localization.cs" />
+     <Compile Include="Assets\N_Utility\uGUI\Localize\U_UILocalize.cs" />
+     <Compile Include="Assets\N_Utility\uGUI\Log\U_DebugButton.cs" />
+     <Compile Include="Assets\N_Utility\uGUI\Log\U_DebugController.cs" />
+     <Compile Include="Assets\N_Utility\uGUI\Log\U_DebugLogConsole.cs" />
+     <Compile Include="Assets\N_Utility\uGUI\Log\U_DebugManager.cs" />
+     <Compile Include="Assets\N_Utility\uGUI\Log\U_DebugMemory.cs" />
+     <Compile Include="Assets\N_Utility\uGUI\Log\U_DebugMenu.cs" />
+     <Compile Include="Assets\N_Utility\uGUI\Log\U_DebugUtil.cs" />
+     <Compile Include="Assets\N_Utility\uGUI\Log\U_DebugView.cs" />
+     <Compile Include="Assets\N_Utility\uGUI\Log\U_DetailConsole.cs" />
+     <Compile Include="Assets\N_Utility\uGUI\Log\U_Drag.cs" />
+     <Compile Include="Assets\N_Utility\uGUI\Log\U_InputButton.cs" />
+     <Compile Include="Assets\N_Utility\uGUI\Log\U_InputExecute.cs" />
+     <Compile Include="Assets\N_Utility\uGUI\Log\U_WindowDragScale.cs" />
+     <Compile Include="Assets\N_Utility\uGUI\Log\U_WindowScale.cs" />
+     <Compile Include="Assets\N_Utility\uGUI\UI\U_UIAtlas.cs" />
+     <Compile Include="Assets\N_Utility\uGUI\UI\U_UISprite.cs" />
+     <Compile Include="Assets\Script\CharaSelect\CharaInfo.cs" />
+     <Compile Include="Assets\Script\CharaSelect\CharaSelectMaster.cs" />
+     <Compile Include="Assets\Script\CharaSelect\CharaSelector.cs" />
+     <Compile Include="Assets\Script\CharaSelect\SelectEvent.cs" />
+     <Compile Include="Assets\Script\GameMain\Main\BaseMainMaster.cs" />
+     <Compile Include="Assets\Script\GameMain\Main\ChangeController.cs" />
+     <Compile Include="Assets\Script\GameMain\Main\MainEntity.cs" />
+     <Compile Include="Assets\Script\GameMain\Main\MainMaster.cs" />
+     <Compile Include="Assets\Script\GameMain\Main\PieceController.cs" />
+     <Compile Include="Assets\Script\GameMain\Main\PieceCreator.cs" />
+     <Compile Include="Assets\Script\GameMain\Main\PieceDrag.cs" />
+     <Compile Include="Assets\Script\GameMain\Main\PieceSpread.cs" />
+     <Compile Include="Assets\Script\GameMain\Main\PieceView.cs" />
+     <Compile Include="Assets\Script\GameMain\Main\PuzzleController.cs" />
+     <Compile Include="Assets\Script\GameMain\Main\RaycastEnable.cs" />
+     <Compile Include="Assets\Script\GameMain\Main\TargetIcon.cs" />
+     <Compile Include="Assets\Script\GameMain\Main\TimerController.cs" />
+     <Compile Include="Assets\Script\GameMain\Multi\CPUActor.cs" />
+     <Compile Include="Assets\Script\GameMain\Multi\CPUController.cs" />
+     <Compile Include="Assets\Script\GameMain\Multi\HindController.cs" />
+     <Compile Include="Assets\Script\GameMain\Multi\MultiMaster.cs" />
+     <Compile Include="Assets\Script\GameMain\Multi\MultiUIController.cs" />
+     <Compile Include="Assets\Script\GameMain\Multi\PuzzleActor.cs" />
+     <Compile Include="Assets\Script\GameMain\Multi\SkillController.cs" />
+     <Compile Include="Assets\Script\GameMain\Multi\SkillController2.cs" />
+     <Compile Include="Assets\Script\GameMain\Other\BetterList.cs" />
+     <Compile Include="Assets\Script\GameMain\Other\ByteReader.cs" />
+     <Compile Include="Assets\Script\GameMain\Particle\PieceBlink.cs" />
+     <Compile Include="Assets\Script\GameMain\Particle\PieceBroken.cs" />
+     <Compile Include="Assets\Script\GameMain\Particle\SkillParticle.cs" />
+     <Compile Include="Assets\Script\GameMain\Puzzle.cs" />
+     <Compile Include="Assets\Script\GameMain\UI\LevelController.cs" />
+     <Compile Include="Assets\Script\GameMain\UI\ScoreController.cs" />
+     <Compile Include="Assets\Script\GameMain\UI\UIBaseController.cs" />
+     <Compile Include="Assets\Script\GameMain\UI\UIController.cs" />
+     <Compile Include="Assets\Script\Option\OptionMaster.cs" />
+     <Compile Include="Assets\Script\Ranking\RankInPopupController.cs" />
+     <Compile Include="Assets\Script\Ranking\RankingMaster.cs" />
+     <Compile Include="Assets\Script\Ranking\RankingScoreController.cs" />
+     <Compile Include="Assets\Script\Ranking\RankingScoreCreator.cs" />
+     <Compile Include="Assets\Script\Title\TitleMaster.cs" />
+     <Compile Include="Assets\Script\Utility\BaseSceneMaster.cs" />
+     <Compile Include="Assets\Script\Utility\BlendColor.cs" />
+     <Compile Include="Assets\Script\Utility\ButtonSelectController.cs" />
+     <Compile Include="Assets\Script\Utility\CacheManager.cs" />
+     <Compile Include="Assets\Script\Utility\GameManager.cs" />
+     <Compile Include="Assets\Script\Utility\GradientColor.cs" />
+     <None Include="Assets\3rdParty\UniLinq\LICENSE.txt" />
+     <None Include="Assets\N_Utility\Log\Resources\Japanese.txt" />
+     <None Include="Assets\N_Utility\Log\BaseDebugGUI.txt" />
+     <None Include="Assets\3rdParty\HOTween\HOTween_License.txt" />
+     <None Include="Assets\N_Utility\Log\DebugMenu.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity_4_6_2/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="HOTween">
+ <HintPath>C:/Users/telfee/Documents/Unity_MyProjects/Puzzle2/Assets/3rdParty/HOTween/HOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Data.Sqlite">
+ <HintPath>C:/Users/telfee/Documents/Unity_MyProjects/Puzzle2/Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

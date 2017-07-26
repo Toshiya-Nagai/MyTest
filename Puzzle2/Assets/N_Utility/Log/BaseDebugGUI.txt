@@ -1,0 +1,12 @@
+///	UI placement
+/// GUIArea : StartX,StartY,Width,Height. GUIText : HeaderText
+///	if screen width = [screenW], if screen height = [screenH], if screenW/2 = [screenW/2]
+0,0,[screenW/2],screenH+1,"Debug Menu"
+///55,40,160,60,"Close"
+///55,140,160,60,"SetMax"
+///55,240,160,60,"SetMin"
+
+///log area (top right)
+///[screenW/2],0,[screenW/2],[screenH/2],"Data Param"
+[screenW/2],0,[screenW/2],screenH+1,"Data Param"
+[screenW/2],20,[screenW/2],screenH+1,null

@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: 7ee4b967cee64fd479fc7e893468629a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: IconCross
+    21300002: ButtonDown
+    21300004: IconUp
+    21300006: IconTick
+    21300008: ButtonHover
+    21300010: ButtonBlockNormal
+    21300012: OrnamentDragonHead
+    21300014: IconSoundOff
+    21300016: FramePlainGreyscale80
+    21300018: ButtonFrame80
+    21300020: IconSoundOn
+    21300022: FramePlainSquare80
+    21300024: FrameSeparator
+    21300026: CharacterPortraitInner
+    21300028: CharacterPortrait
+    21300030: OrnamentCornerRight
+    21300032: IconRight
+    21300034: ButtonNormal
+    21300036: FrameRockPlainGreyscale80
+    21300038: OrnamentLargeDragonLeft
+    21300040: FrameRockGreyscale80
+    21300042: FrameSquare80
+    21300044: ButtonBlockDown
+    21300046: FrameRockSimpleGreyscale80
+    21300048: ButtonBlockX
+    21300050: OrnamentLargeDragonRight
+    21300052: IconLeft
+    21300054: OrnamentCornerLeft
+    21300056: IconDown
+    21300058: Slider
+    21300060: Tab
+    21300062: FrameSimpleGreyscale80
+    21300064: FrameGreyscale80
+    21300066: TabFrame
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: 5
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: IconCross
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 0
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ButtonDown
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 193
+        width: 289
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+    - name: IconUp
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 82
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IconTick
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 375
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ButtonHover
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 298
+        width: 289
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+    - name: ButtonBlockNormal
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 375
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: OrnamentDragonHead
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1643
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IconSoundOff
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1643
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FramePlainGreyscale80
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 510
+        width: 412
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+    - name: ButtonFrame80
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 403
+        width: 289
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+    - name: IconSoundOn
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1834
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FrameGreyscale80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 510
+        width: 456
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+    - name: FrameSeparator
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 462
+        width: 512
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CharacterPortraitInner
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 0
+        width: 512
+        height: 229
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CharacterPortrait
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 231
+        width: 512
+        height: 229
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: OrnamentCornerRight
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1894
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IconRight
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1916
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ButtonNormal
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1538
+        width: 289
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+    - name: FrameRockPlainGreyscale80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 508
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 10, y: 10, z: 10, w: 10}
+    - name: OrnamentLargeDragonLeft
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 0
+        width: 204
+        height: 191
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TabFrame
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 454
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 10, y: 10, z: 10, w: 64}
+    - name: FrameSquare80
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 193
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 25, y: 25, z: 25, w: 25}
+    - name: ButtonBlockDown
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1538
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FrameSimpleGreyscale80
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 0
+        width: 512
+        height: 507
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 10, y: 10, z: 10, w: 10}
+    - name: ButtonBlockX
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1730
+        width: 102
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: OrnamentLargeDragonRight
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 0
+        width: 204
+        height: 191
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IconLeft
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1730
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: OrnamentCornerLeft
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1950
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IconDown
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1812
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Slider
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1538
+        width: 36
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tab
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1643
+        width: 301
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
