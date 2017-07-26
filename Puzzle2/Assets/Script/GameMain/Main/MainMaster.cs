@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class MainMaster : BaseMainMaster {
@@ -29,6 +30,6 @@ public class MainMaster : BaseMainMaster {
 	}
 	public override IEnumerator End (){
 		Debug.Log ("End");
-		yield return Application.LoadLevelAsync("Ranking");
+		yield return SceneManager.LoadSceneAsync("Ranking");
 	}
 }

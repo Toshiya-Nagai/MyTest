@@ -1,22 +1,23 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 using U_DebugUtil;
 
 public class TitleMaster : BaseSceneMaster,IDebug {
 	public void MoveSolo(){
-		Application.LoadLevelAsync("Option");
+		SceneManager.LoadSceneAsync("Option");
 	}
 
 	public void MoveRanking(){
-		Application.LoadLevelAsync("Ranking");
+		SceneManager.LoadSceneAsync("Ranking");
 	}
 
 	public void MoveCharaSelect(){
-		Application.LoadLevelAsync("CharaSelect");
+		SceneManager.LoadSceneAsync("CharaSelect");
 	}
 
 	public void MoveMulti(){
-		Application.LoadLevelAsync("MultiOption");
+		SceneManager.LoadSceneAsync("MultiOption");
 	}
 
 

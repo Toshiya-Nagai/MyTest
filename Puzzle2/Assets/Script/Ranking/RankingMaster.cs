@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -124,6 +125,6 @@ public class RankingMaster : BaseSceneMaster {
 	}
 
 	public void MoveTitle(){
-		Application.LoadLevelAsync("Title");
+		SceneManager.LoadSceneAsync("Title");
 	}
 }

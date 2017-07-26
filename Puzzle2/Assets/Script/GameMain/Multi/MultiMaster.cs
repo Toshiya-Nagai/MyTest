@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class MultiMaster : BaseMainMaster {
@@ -56,6 +57,6 @@ public class MultiMaster : BaseMainMaster {
 #if (UNITY_IPHONE || UNITY_ANDROID) && !UNITY_EDITOR
 		Screen.orientation = ScreenOrientation.Portrait;
 #endif
-		yield return Application.LoadLevelAsync("Title");
+		yield return SceneManager.LoadSceneAsync("Title");
 	}
 }

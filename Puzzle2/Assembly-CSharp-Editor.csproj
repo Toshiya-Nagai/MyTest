@@ -86,13 +86,13 @@
  <HintPath>C:/Program Files (x86)/Unity5_3_4p2/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
  <Reference Include="HOTween">
- <HintPath>C:/Users/telfee/Documents/Unity_MyProjects/Puzzle2/Assets/3rdParty/HOTween/HOTween.dll</HintPath>
+ <HintPath>C:/Users/telfee/Documents/GitHub/MyTest/Puzzle2/Assets/3rdParty/HOTween/HOTween.dll</HintPath>
  </Reference>
  <Reference Include="HOTweenV1_Editor">
- <HintPath>C:/Users/telfee/Documents/Unity_MyProjects/Puzzle2/Assets/3rdParty/HOTween/Editor/HOTweenV1_Editor.dll</HintPath>
+ <HintPath>C:/Users/telfee/Documents/GitHub/MyTest/Puzzle2/Assets/3rdParty/HOTween/Editor/HOTweenV1_Editor.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Data.Sqlite">
- <HintPath>C:/Users/telfee/Documents/Unity_MyProjects/Puzzle2/Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
+ <HintPath>C:/Users/telfee/Documents/GitHub/MyTest/Puzzle2/Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity5_3_4p2/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>

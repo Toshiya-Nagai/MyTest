@@ -56,7 +56,7 @@ public class SkillParticle : BaseParticleAction<SkillParticle.Info> {
 
 	protected override void ProcessUpdate (ref ParticleSystem.Particle particle, ref Info info){
 		if(info.state == State.Play){
-			particle.color = info.color;
+			particle.startColor = info.color;
 			particle.position = info.position + Vector3.back;
 			info.timer += Time.deltaTime;
 			if(info.timer > 2.0f){

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class OptionMaster : BaseSceneMaster {
@@ -26,19 +27,19 @@ public class OptionMaster : BaseSceneMaster {
 
 	public void MoveMainScene(){
 		SaveOption.Save(save);
-		Application.LoadLevelAsync("Main");
+		SceneManager.LoadSceneAsync("Main");
 	}
 
 	public void MoveTitle(){
-		Application.LoadLevelAsync("Title");
+		SceneManager.LoadSceneAsync("Title");
 	}
 
 	public void MoveCharaSelect(){
-		Application.LoadLevelAsync("CharaSelect");
+		SceneManager.LoadSceneAsync("CharaSelect");
 	}
 
 	public void MoveMulti(){
 		SaveOption.Save(save);
-		Application.LoadLevelAsync("Multi");
+		SceneManager.LoadSceneAsync("Multi");
 	}
 }

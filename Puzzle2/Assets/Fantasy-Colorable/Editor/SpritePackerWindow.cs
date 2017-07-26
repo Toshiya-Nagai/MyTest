@@ -44,7 +44,7 @@ namespace CSWTools
 
 		public void Initialize()
 		{
-			title = "Sprite Packer";
+			titleContent = new GUIContent("Sprite Packer");
 		}
 
 		void UpdateSprites(bool clear)
@@ -297,7 +297,7 @@ namespace CSWTools
 			
 			spriteTexs.Clear();
 			
-			UnityEditor.EditorUtility.UnloadUnusedAssets();
+			UnityEditor.EditorUtility.UnloadUnusedAssetsImmediate();
 		}
 
 		void OnGUI()

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 using N_Creator;
 
@@ -34,12 +35,12 @@ public class CharaSelectMaster : BaseSceneMaster {
 
 
 	public void MoveTitle(){
-		Application.LoadLevelAsync("Title");
+		SceneManager.LoadSceneAsync("Title");
 	}
 
 	public void MoveMultiOption(){
 		CharaOption.Save(selector.charaOption);
-		Application.LoadLevelAsync("MultiOption");
+		SceneManager.LoadSceneAsync("MultiOption");
 	}
 
 

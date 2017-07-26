@@ -59,7 +59,7 @@ public class PieceBroken : BaseParticleAction<PieceBroken.Info> {
 			particle.velocity = new Vector3(Random.Range(-4.0f,4.0f),Random.Range(-4.0f,4.0f),0.0f);
 			info.state = State.Gravity;
 		}else if(info.state == State.Gravity){
-			particle.color = info.color;
+			particle.startColor = info.color;
 			particle.velocity += Vector3.up * -Gravity * Time.deltaTime;
 			info.lifeTime += Time.deltaTime;
 			if(info.lifeTime > LifeTime){

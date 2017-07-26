@@ -59,7 +59,7 @@ public class PieceBlink : BaseParticleAction<PieceBlink.Info> {
 	protected override void ProcessUpdate (ref ParticleSystem.Particle particle, ref Info info){
 		if(info.state == State.Blink){
 			info.UpdateBlink();
-			particle.color = info.color;
+			particle.startColor = info.color;
 			particle.position = info.position + Vector3.back;
 			if(info.timer > 2.0f || info.isStop){
 				info.Init();

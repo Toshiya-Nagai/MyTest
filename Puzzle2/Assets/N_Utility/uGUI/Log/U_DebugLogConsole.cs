@@ -3,6 +3,8 @@
 #define MOBILE
 #endif
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEditor.SceneManagement;
 using System.Collections;
 using U_DebugUtil;
 using System.Collections.Generic;
@@ -48,7 +50,7 @@ public class U_DebugLogConsole : IDebug {
 		info.AppendFormat("Unity Ver: {0}\n", Application.unityVersion);
 		info.AppendFormat("Platform: {0} Language: {1}\n", Application.platform, Application.systemLanguage);
 		info.AppendFormat("Screen:({0},{1}) DPI:{2} Target:{3}fps\n", Screen.width, Screen.height, Screen.dpi, Application.targetFrameRate);
-		info.AppendFormat("Level: {0} ({1} of {2})\n", Application.loadedLevelName, Application.loadedLevel, Application.levelCount);
+		info.AppendFormat("Level: {0} ({1} of {2})\n", SceneManager.GetActiveScene().name, SceneManager.GetActiveScene().buildIndex, SceneManager.sceneCountInBuildSettings);
 		info.AppendFormat("Quality: {0}\n", QualitySettings.names[QualitySettings.GetQualityLevel()]);
 		info.AppendLine();
 		info.AppendFormat("Data Path: {0}\n", Application.dataPath);
@@ -70,7 +72,7 @@ public class U_DebugLogConsole : IDebug {
 		info.AppendLine();
 		info.AppendFormat("editorApp: {0}\n", UnityEditor.EditorApplication.applicationPath);
 		info.AppendFormat("editorAppContents: {0}\n", UnityEditor.EditorApplication.applicationContentsPath);
-		info.AppendFormat("scene: {0}\n", UnityEditor.EditorApplication.currentScene);
+		info.AppendFormat("scene: {0}\n", UnityEditor.SceneManagement.EditorSceneManager.GetActiveScene().name);
 		#endif
 		info.AppendLine();
 		return info.ToString();

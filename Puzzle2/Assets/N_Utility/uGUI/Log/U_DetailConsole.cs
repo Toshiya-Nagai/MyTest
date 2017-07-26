@@ -32,7 +32,7 @@ public class U_DetailConsole : IDebug {
 				.Where (x=>x.IndexOf("<color=red>") <= 0 && x.Length > 10).Select(x=>"//"+x+"//").Aggregate((now,next)=>now+next);
 			log = split;
 		}));
-		Application.RegisterLogCallback(HandleLog);
+		Application.logMessageReceived += HandleLog;
 	}
 
 	void HandleLog (string condition, string stackTrace, LogType type){
